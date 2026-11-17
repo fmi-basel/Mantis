@@ -1,4 +1,4 @@
-<img width="4616" height="2094" alt="Asset 17@600x" src="https://github.com/user-attachments/assets/35553ceb-230e-479d-89e0-02f85ad431e8" />
+<img width="4616" height="873" alt="Asset 23@600x" src="https://github.com/user-attachments/assets/f4b872a4-5082-4c27-983b-805f2557d8e0" />
 
 <br> Welcome to the `Mantis` landing page! `Mantis` is an ecosystem of modular tools for image processing and quantitative analysis of high-content, multiplexed, and volumetric microscopy data. The name is inspired by the mantis shrimp and its complex visual system, which detects light across multiple spectral channels 🦐🌈
 
