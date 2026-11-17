@@ -1,61 +1,72 @@
-<img width="4616" height="2094" alt="Asset 16@600x" src="https://github.com/user-attachments/assets/d5f04772-56e3-4b94-9758-04306e425144" />
+<img width="4616" height="2094" alt="Asset 17@600x" src="https://github.com/user-attachments/assets/35553ceb-230e-479d-89e0-02f85ad431e8" />
 
+<br> Welcome to the `Mantis` landing page! `Mantis` is an ecosystem of modular tools for image processing and quantitative analysis of high-content, multiplexed, and volumetric microscopy data. The name is inspired by the mantis shrimp and its complex visual system, which detects light across multiple spectral channels 🦐🌈
 
-`Mantis` is an ecosystem of modular tools for image processing and quantitative analysis of high-content, multiplexed, and volumetric microscopy data. The name is inspired by the mantis shrimp and its complex visual system, which detects light across spectral channels 🦐🌈
-
-`Mantis-plex` provides tools for processing multiplexed imaging datasets, including image registration, object linking, and z-illumination correction across rounds. Its functions are wrapped as [Fractal](https://fractal-analytics-platform.github.io/) tasks operating on the [OME-Zarr](https://ngff.openmicroscopy.org/) image format, enabling reproducible image-processing workflows that can be executed on compute clusters.
-
-
-#### 🚧 Mantis is currently evolving!
-
-Mantis-plex is being reorganized into four complementary packages: Mantis-plex, Mantis-quant, Mantis-surf, and Mantis-seg, each providing modular analysis tools organized by functionality. 
 
 <img width="4893" height="2245" alt="Asset 2@600x" src="https://github.com/user-attachments/assets/0fa294b0-90d4-4990-b046-5bbe91dbb54e" />
 
-More information about Mantis-quant, Mantis-surf, and Mantis-seg is coming soon!
+<br> `Mantis` functions are wrapped as [Fractal](https://fractal-analytics-platform.github.io/) tasks operating on the [OME-Zarr](https://ngff.openmicroscopy.org/) image format, enabling reproducible image-processing workflows. They can be combined and executed within a Fractal deployment alongside other tools from the Fractal ecosystem.
 
-## Installation
+<br> An example `Mantis` workflow combining multiple tasks is shown below:
 
-### From source
-
-Clone the repository and install Mantis-plex:
-
-```bash
-git clone https://github.com/fmi-basel/Mantis-plex.git
-cd Mantis-plex
-pip install .
-```
-
-To include optional dependencies for spherical harmonics and warpfield registration:
-
-```bash
-pip install ".[spherical-harmonics,warpfield]"
-```
-
-## Fractal workflow steps
-
-`Mantis-plex` functions are implemented as Fractal tasks located under:
-
-```text
-src/mantis_plex/fractal/
-```
-
-These tasks can be collected and executed within a Fractal deployment alongside tasks from the Fractal ecosystem.
-
-
+<br> 
 <img width="4094" height="1890" alt="Asset 4@600x" src="https://github.com/user-attachments/assets/1eb2ba77-886f-422b-840c-b388d3040998" />
 
+<br><br> The `Mantis` ecosystem consists of four complementary packages, organized by functionality:
 
-## License
+<br> 
+<table>
+  <tr>
+    <th></th>
+    <th>Package</th>
+    <th>Main functionality</th>
+  </tr>
+  <tr>
+    <td>
+      <img width="100" alt="Mantis-plex" src="https://github.com/user-attachments/assets/c38bc920-7893-4149-a2be-1279cb91c20a" />
+    </td>
+    <td>
+      <a href="https://github.com/fmi-basel/Mantis-plex">Mantis-plex</a>
+    </td>
+    <td>
+      Processing and registration of multiplexed microscopy images.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img width="100" alt="Mantis-surf" src="https://github.com/user-attachments/assets/f1240c60-b9de-41c3-bc7a-ee3fd90860fe" />
+    </td>
+    <td>
+      <a href="https://github.com/fmi-basel/Mantis-plex">Mantis-surf</a>
+    </td>
+    <td>
+      3D surface reconstruction and mesh-based analysis of cells and tissues.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img width="100" alt="Mantis-seg" src="https://github.com/user-attachments/assets/34c716cf-b2b7-4235-bfb1-17109e42f705" />
+    </td>
+    <td>
+      <a href="https://github.com/fmi-basel/Mantis-plex">Mantis-seg</a>
+    </td>
+    <td>
+      Segmentation of cells and nuclei in volumetric microscopy images.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img width="100" alt="Mantis-quant" src="https://github.com/user-attachments/assets/2ff40414-e776-4b24-8ad6-cc7a38888e93" />
+    </td>
+    <td>
+      <a href="https://github.com/fmi-basel/Mantis-plex">Mantis-quant</a>
+    </td>
+    <td>
+      Quantification of cellular features, marker intensities, and spatial organization.
+    </td>
+  </tr>
+</table>
 
-Unless otherwise stated in each individual module, all Mantis-plex components are released under the BSD 3-Clause License, and copyright is held by the Friedrich Miescher Institute for Biomedical Research.
+#### 🚧 Mantis is currently evolving!
 
-## Contributors
-
-Developed in the Liberali Lab at the Friedrich Miescher Institute for Biomedical Research (FMI), Basel, Switzerland by [@nrepina](https://github.com/nrepina), with development support from [@jluethi](https://github.com/jluethi), [@lorenzocerrone](https://github.com/lorenzocerrone), [@enricotagliavini](https://github.com/enricotagliavini), and [@tibuch](https://github.com/tibuch).
-
-Point-cloud based multiplexed linking is built on [PlatyMatch](https://github.com/juglab/PlatyMatch) ([DOI](https://doi.org/10.1007/978-3-030-66415-2_30)) by Manan Lalit.
-
-Warpfield registration is based on [Warpfield](https://github.com/danionella/warpfield/tree/main) ([DOI](https://doi.org/10.1038/s41467-023-43741-x)).
-
-Spherical harmonic computation is based on [aisc-shparam](https://github.com/AllenCell/aics-shparam).
+We are currently reorganizing the original Mantis-plex repository into the four packages described above. Documentation and links to the individual repositories will be added as they become available.
