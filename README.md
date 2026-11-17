@@ -29,7 +29,7 @@
       <a href="https://github.com/fmi-basel/Mantis-plex">Mantis-plex</a>
     </td>
     <td>
-      Processing and registration of multiplexed microscopy images.
+      Registration of 3D images across multiplexed imaging rounds.
     </td>
   </tr>
   <tr>
@@ -37,10 +37,10 @@
       <img width="100" alt="Mantis-surf" src="https://github.com/user-attachments/assets/f1240c60-b9de-41c3-bc7a-ee3fd90860fe" />
     </td>
     <td>
-      <a href="https://github.com/fmi-basel/Mantis-plex">Mantis-surf</a>
+      <a href="https://github.com/fmi-basel/Mantis-surf">Mantis-surf</a>
     </td>
     <td>
-      3D surface reconstruction and mesh-based analysis of cells and tissues.
+      3D surface segmentation of tissues.
     </td>
   </tr>
   <tr>
@@ -51,7 +51,7 @@
       <a href="https://github.com/fmi-basel/Mantis-plex">Mantis-seg</a>
     </td>
     <td>
-      Segmentation of cells and nuclei in volumetric microscopy images.
+      Segmentation of cells and nuclei in 3D tissues.
     </td>
   </tr>
   <tr>
@@ -62,7 +62,7 @@
       <a href="https://github.com/fmi-basel/Mantis-plex">Mantis-quant</a>
     </td>
     <td>
-      Quantification of cellular features, marker intensities, and spatial organization.
+      Quantification of segmentation features, marker intensities, spatial organization and mesh annotation.
     </td>
   </tr>
 </table>
