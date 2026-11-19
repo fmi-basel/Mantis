@@ -48,7 +48,7 @@
       <img width="100" alt="Mantis-seg" src="https://github.com/user-attachments/assets/34c716cf-b2b7-4235-bfb1-17109e42f705" />
     </td>
     <td>
-      <a href="https://github.com/fmi-basel/Mantis-plex">Mantis-seg</a>
+      <a href="https://github.com/fmi-basel/Mantis-seg">Mantis-seg</a>
     </td>
     <td>
       Segmentation of cells and nuclei in 3D tissues.
