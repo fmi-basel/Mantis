@@ -59,14 +59,10 @@
       <img width="100" alt="Mantis-quant" src="https://github.com/user-attachments/assets/2ff40414-e776-4b24-8ad6-cc7a38888e93" />
     </td>
     <td>
-      <a href="https://github.com/fmi-basel/Mantis-plex">Mantis-quant</a>
+      <a href="https://github.com/fmi-basel/Mantis-quant">Mantis-quant</a>
     </td>
     <td>
       Quantification of segmentation features, marker intensities, spatial organization and mesh annotation.
     </td>
   </tr>
 </table>
-
-#### 🚧 Mantis is currently evolving!
-
-We are currently reorganizing the original Mantis-plex repository into the four packages described above. Documentation and links to the individual repositories will be added as they become available.
